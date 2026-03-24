@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Launcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-container" id="menuContainer">
+        <div class="menu-header">
+            <h1>🌐 Website Launcher</h1>
+            <p>Choose your destination</p>
+        </div>
+        
+        <div class="menu-grid">
+            <div class="menu-item" data-url="https://www.google.com">
+                <div class="menu-icon">🔍</div>
+                <div class="menu-title">Google</div>
+                <div class="menu-description">Search the web</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://www.youtube.com">
+                <div class="menu-icon">📺</div>
+                <div class="menu-title">YouTube</div>
+                <div class="menu-description">Watch videos</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://www.github.com">
+                <div class="menu-icon">💻</div>
+                <div class="menu-title">GitHub</div>
+                <div class="menu-description">Code repository</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://www.reddit.com">
+                <div class="menu-icon">🤖</div>
+                <div class="menu-title">Reddit</div>
+                <div class="menu-description">Front page of internet</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://www.wikipedia.org">
+                <div class="menu-icon">📚</div>
+                <div class="menu-title">Wikipedia</div>
+                <div class="menu-description">Free encyclopedia</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://www.twitter.com">
+                <div class="menu-icon">🐦</div>
+                <div class="menu-title">Twitter</div>
+                <div class="menu-description">Social media</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://www.amazon.com">
+                <div class="menu-icon">🛒</div>
+                <div class="menu-title">Amazon</div>
+                <div class="menu-description">Online shopping</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://www.netflix.com">
+                <div class="menu-icon">🎬</div>
+                <div class="menu-title">Netflix</div>
+                <div class="menu-description">Stream movies</div>
+            </div>
+            
+            <div class="menu-item" data-url="https://roblox.com.py/users/208685382716/profile">
+                <div class="menu-icon">🎮</div>
+                <div class="menu-title">Roblox Profile</div>
+                <div class="menu-description">Gaming profile</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="browser-container" id="browserContainer">
+        <div class="browser-controls">
+            <button class="back-btn" id="backBtn">← Back to Menu</button>
+            <div class="browser-title" id="browserTitle">Website</div>
+            <button class="fullscreen-btn" id="fullscreenBtn">⛶ Fullscreen</button>
+        </div>
+        <div class="iframe-wrapper">
+            <iframe id="websiteFrame" src="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation"></iframe>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
